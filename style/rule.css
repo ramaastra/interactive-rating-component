@@ -1,0 +1,38 @@
+:root {
+	--orange: hsl(25, 97%, 53%);
+	--light-grey: hsl(217, 12%, 63%);
+	--dark-blue: hsl(213, 19%, 18%);
+	--very-dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Overpass', sans-serif;
+}
+
+body {
+	background-color: var(--very-dark-blue);
+}
+
+button,
+button:focus {
+	font-family: 'Overpass', sans-serif;
+	outline: none;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.container {
+	margin: auto;
+	max-width: 1440px;
+	height: 100vh;
+	color: white;
+	display: grid;
+	place-items: center;
+}

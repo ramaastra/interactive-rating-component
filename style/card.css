@@ -1,0 +1,127 @@
+.card {
+  width: 380px;
+  height: 410px;
+  background-color: var(--dark-blue);
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+  padding: 30px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.star {
+  background-color: hsl(214, 19%, 26%);
+  display: grid;
+  place-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.text h1 {
+  font-size: 27px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.text p {
+  line-height: 25px;
+  color: var(--light-grey);
+  font-size: 14px;
+}
+
+.rate-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate-btn {
+  color: var(--light-grey);
+  font-weight: 600;
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: hsl(214, 19%, 26%);
+  display: grid;
+  place-content: center;
+  transition: all .2s;
+}
+
+.selected {
+  background-color: var(--orange);
+  color: white;
+}
+
+.rate-btn:hover {
+  background-color: var(--light-grey);
+  color: white;
+}
+
+.submit-btn {
+  background-color: var(--orange);
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  height: 40px;
+  display: grid;
+  place-content: center;
+  border-radius: 40px;
+  transition: all .2s;
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: var(--orange);
+}
+
+.locked,
+.locked:focus {
+  background-color: hsl(216, 12%, 54%);
+  cursor: default;
+  pointer-events: none;
+}
+
+.locked:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.rate img {
+  width: 150px;
+}
+
+.rate-text {
+  color: var(--orange);
+  text-align: center;
+  background-color: rgba(149, 158, 172, 0.1);
+  display: inline-block;
+  padding: 7px 18px;
+  border-radius: 50px;
+}
+
+.rate-text h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.thankyou {
+  text-align: center;
+}
